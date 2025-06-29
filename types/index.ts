@@ -13,7 +13,7 @@ export interface Lesson {
   time: string;
   date: string;
   recurring: boolean;
-  dayOfWeek?: number; // 0-6, Sunday = 0
+  dayOfWeek?: number;
 }
 
 export interface Memorial {
