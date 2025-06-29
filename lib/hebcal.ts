@@ -1,6 +1,5 @@
 export const fetchShabbatTimes = async (): Promise<ShabbatTimes | null> => {
   try {
-    // Kiryat Malakhi coordinates
     const response = await fetch(
       'https://www.hebcal.com/shabbat?cfg=json&geonameid=294801&m=50'
     );
