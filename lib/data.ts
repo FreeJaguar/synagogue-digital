@@ -1,6 +1,5 @@
 import { ContentData, ShabbatTimes, Lesson, Memorial, TorahWord, Announcement } from '../types';
 
-// In-memory storage (in production, you'd use a real database)
 let contentData: ContentData = {
   lessons: [
     {
@@ -10,7 +9,7 @@ let contentData: ContentData = {
       time: '08:00',
       date: '',
       recurring: true,
-      dayOfWeek: 6 // Saturday
+      dayOfWeek: 6
     }
   ],
   memorials: [],
